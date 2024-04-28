@@ -1,0 +1,158 @@
+.loaderContainer {
+  height: 100lvh;
+  width: 100lvw;
+  background-color: var(--grey_dark_0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.loaderImage {
+  height: 20vh;
+  width: 20vw;
+}
+
+.loaderText {
+  color: aliceblue;
+}
+
+.loader {
+  background-image: linear-gradient(
+      310deg,
+      rgba(7, 7, 7, 0.7),
+      rgba(2, 2, 2, 0.7)
+    ),
+    url("../../Assets/Images/HomeBackground.png");
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
+.homeContainer {
+}
+
+.homeImageContainer {
+  padding: 1vh;
+}
+
+.homeImg {
+  margin: 3vw;
+  height: 70vh;
+  margin-left: 20vw;
+  border-radius: 10px;
+  box-shadow: 0 1px 10px 0 var(--purple_2), 0 5px 10px 0 var(--purple_2);
+}
+
+.homeText {
+  color: var(--white_1);
+  font-weight: 300;
+}
+
+.home-section {
+  background-position: top center;
+  background-repeat: no-repeat;
+  margin-left: 25vw;
+}
+
+.home-content {
+  color: whitesmoke;
+  text-align: left;
+}
+
+.heading {
+  font-size: 2.4em !important;
+}
+
+.wave {
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.1s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.heading-name {
+  font-size: 2.5em !important;
+  /* padding-left: 45px !important; */
+}
+
+.main-name {
+  color: var(--purple_0);
+}
+
+.dividerContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.divider {
+  width: 90%;
+  height: 5px;
+  background-color: rgba(170, 58, 255, 0.2);
+}
+
+@media only screen and (max-width: 767px) {
+  .loaderContainer {
+    flex-direction: row;
+  }
+
+  .homeContainer {
+    display: block;
+    height: auto;
+  }
+
+  .displayImage {
+    height: 50vh;
+    width: 60vw;
+  }
+
+  .homeText {
+    margin-top: 5vh;
+    font-weight: 500;
+  }
+
+  #homeImg2 {
+    height: 90%;
+    margin-top: 2vh;
+    margin-left: 20vw;
+    margin-bottom: 10vh;
+    width: 70%;
+  }
+  .homeImg {
+    height: 50vh;
+    border-radius: 10px;
+    box-shadow: 0 1px 10px 0 var(--purple_2), 0 5px 10px 0 var(--purple_2);
+  }
+}

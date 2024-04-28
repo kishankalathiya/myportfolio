@@ -1,0 +1,16 @@
+.projectsContainer h1{
+    text-align: center;
+    color: var(--purple_0);
+}
+
+.projectsContainer h3{
+    text-align: center;
+    color: var(--white_2);
+    font-weight: 300;
+}
+
+.cardCss{
+    background-color: var(--purple_2);
+    color: var(--white_2);
+    cursor: pointer;
+}

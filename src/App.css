@@ -1,0 +1,19 @@
+:root{
+  --grey_dark_0:rgba(0, 0, 0, 0.89);
+  --grey_dark_1:rgba(0, 0, 0, 0.92);
+  --grey_dark_2:rgba(0, 0, 0, 0.96);
+  --grey_dark_3:rgba(119, 114, 114, 0.5);
+  --white:rgba(255, 255, 255, 0.7);
+  --white_1:rgba(255, 255, 255, 0.9);
+  --white_2:rgba(255, 255, 255, 0.5);
+  --white_3:rgba(255, 255, 255, 0.2);
+  --purple_0:rgba(170, 58, 255, 0.5);
+  --purple_1:rgba(170, 58, 255, 0.2);
+  --purple_2:rgba(170, 58, 255, 0.1);
+}
+
+.defaultContainer{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}

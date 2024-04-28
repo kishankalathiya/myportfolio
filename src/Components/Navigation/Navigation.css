@@ -1,0 +1,37 @@
+.outerContainer{
+    height:20rem;
+    z-index: 100;
+}
+
+.navbar{
+    background-color: var(--grey_dark_2);
+    position:sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbarItem{
+    cursor: pointer;
+    margin-left: 5vb;
+    margin-bottom: 1vb;
+    text-decoration: none;
+    font-size: x-large;
+    letter-spacing: inherit;
+    color: var(--white);
+    font-weight: 400;
+}
+
+.navbarItem:hover{
+    color: var(--purple_0);
+}
+
+
+
+.sideBarContainer{
+    background-color: var(--grey_dark_0);
+}
+
+.sideNavLinkContainer{
+    list-style-type: none;
+    padding: 0;
+}

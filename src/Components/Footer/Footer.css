@@ -1,0 +1,27 @@
+.footerContainer{
+    position:fixed;
+    bottom: 0;
+    width: 100vw;
+    z-index: 1000;
+    margin-top: 10vh;
+}
+
+.iconContainer{
+    position: relative;
+    background-color: var(--grey_dark_2);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contactIcon{
+    cursor: pointer;
+    font-size: x-large;
+    margin: 2vh;
+    color: var(--white);
+    font-weight: 200;
+}
+
+.contactIcon:hover{
+    color: var(--purple_1);
+}

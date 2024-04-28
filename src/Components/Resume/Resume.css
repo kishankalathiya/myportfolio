@@ -1,0 +1,112 @@
+.resumeImg {
+  width: 100%;
+  height: 100%;
+  opacity: 80%;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  color: var(--white_2);
+}
+
+.text-white {
+  color: var(--white_1);
+  font-weight: 300;
+}
+
+#resume {
+  padding: 2vh;
+  margin: 4vh;
+  margin-bottom: 10vh;
+  color: var(--white);
+}
+
+.resumeImgContainer {
+  display: flex;
+  align-self: center;
+  padding: 0.5vh;
+  background-color: black;
+}
+
+.myContent {
+  font-size: xx-large;
+  font-weight: 100;
+  color: var(--white_2);
+}
+
+.resumeContainer {
+  border: solid var(--white_2) 1px;
+}
+
+.resumeContent h2 {
+  font-size: xx-large;
+  font-weight: 500;
+}
+
+.resumeContent h5 {
+  font-size: large;
+  font-weight: 200;
+}
+
+.downloadBtn {
+  background-color: transparent;
+  border: none;
+  font-size: larger;
+  font-weight: 300;
+  color: var(--white_1);
+}
+
+.pdfContent {
+  background-color: white;
+  color: black;
+  display: none;
+}
+
+.DevNameContainer{
+  background-color: var(--purple_1);
+  text-align: center;
+  padding: 2vw;
+}
+
+.DevNameContainer h1{
+  font-weight: 400;
+}
+
+.DevNameContainer h3{
+  font-size: larger;
+  font-weight: 100;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+  .myContent {
+    font-size: larger;
+    font-weight: 100;
+  }
+
+  .resumeContent h2 {
+    font-size: larger;
+    font-weight: 500;
+  }
+
+  .resumeContent h5 {
+    font-size: medium;
+    font-weight: 100;
+  }
+
+  .education{
+    margin-top: 2rem;
+    text-align: start;
+  }
+
+  .downloadBtn {
+    font-size: medium;
+    font-weight: 200;
+  }
+}
